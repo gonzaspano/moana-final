@@ -1,0 +1,44 @@
+[
+    {
+    "id": 0,
+    "title": "Blusa Briseida",
+    "price": 500,
+    "description": "mangas largas",
+    "img": "imagen/comprimidas/blusa1.jpg"
+    },
+    {
+        "id": 1,
+        "title": "Short Amira",
+        "price": 350,
+        "description": "animal print",
+        "img": "imagen/comprimidas/short1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Top Alamo",
+        "price": 300,
+        "description": "a rayas",
+        "img": "imagen/comprimidas/top1.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Vestido Hera",
+        "price": 500,
+        "description": "a rayas",
+        "img": "imagen/comprimidas/vestido1.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Vestido Sintu",
+        "price": 500,
+        "description": "a rayas",
+        "img": "imagen/comprimidas/vestido2.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Blusa Francis",
+        "price": 400,
+        "description": "a rayas",
+        "img": "imagen/comprimidas/blusa2.jpg"
+    }
+]

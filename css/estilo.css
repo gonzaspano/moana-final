@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+header .logoletras {
+    width: 250px;
+    transition: all 1s;
+}
+
+.logoletras:hover {
+    width: 350px;
+}
+
+.menu {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    z-index: 1;
+}
+
+.menu a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.body {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.bodyproductos {
+    padding-top: 50px;
+}
+
+.titulo {
+    font-size: 50px;
+}
+
+.productoimg {
+    width: 250px;
+}
+
+.carouselimg {
+    width: 350px;
+}
+
+.carouseltexto {
+    font-weight: bold;
+    color: black;
+}
+
+#carouselcentrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.productotexto {
+    margin-top: 20px;
+    margin-bottom: 55px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #ccc;
+    margin-top: 25px;
+    height: 50px;
+    padding-bottom: 80px;
+}
+
+.footer p {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.bodycontacto {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contacto {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.contactoimg {
+    width: 50px;
+}
+
+.contactotexto {
+    padding-top: 20px;
+}
+
+#botonenviar {
+    background-color: black;
+    border-color: blanchedalmond;
+}
+
+#nombre {
+    width: 245px;
+}
+
+#apellido {
+    width: 245px;
+}
+
+.bodyentregas {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.entregas {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.productotexto:hover {
+    color: rgb(202, 189, 189)
+}
+
+.google-maps {
+    max-width: 100%;
+
+}
+
+.google-maps iframe {
+    max-width: 100%;
+}
+
+.hipervinculo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hipervinculo:hover {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+

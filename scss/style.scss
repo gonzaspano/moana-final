@@ -1,0 +1,203 @@
+@import "sale";
+$colorpastel: rgb(202, 189, 189);
+$colorborde: rgb(221, 221, 221);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    .logoletras {
+        width: 200px;
+    }
+}
+// MENU ----------------------
+.menu {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    .desplegable {
+        background-color: black;
+    }
+}
+// BODY ----------------
+.body {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    .titulo {
+        font-size: 50px;
+    }
+    .portada {
+        img {
+            width: 100%;
+            transition: 1s;
+        }
+        img:hover {
+            opacity: 70%;
+        }
+    }
+    .info {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-right: 80px;
+        margin-left: 80px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        border-top: 1px solid $colorborde;
+        border-bottom: 1px solid $colorborde;
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+        }
+        .infosmall {
+            font-size: 15px;
+        }
+    }
+    .bodyproductos {
+        padding-top: 50px;
+        .productoimg {
+            width: 250px;
+        }
+        .productotexto {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .productoboton {
+            border: 1px solid black;
+            margin-bottom: 50px;
+        }
+        .productotexto:hover {
+            color: $colorpastel;
+        }
+        .carouselimg {
+            width: 350px;
+        }
+        .carouseltexto {
+            font-weight: bold;
+            color: black;
+        }
+        .carouselimgestilo {
+            border-radius: 15px;
+            border: solid $colorpastel;
+        }
+    }
+    #carouselcentrado {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .productobotoncarousel {
+        border: 1px solid black;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .bodycontacto {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .contacto {
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            .contactoimg {
+                width: 50px;
+            }
+            .contactotexto {
+                padding-top: 20px;
+                .hipervinculo {
+                    text-decoration: none;
+                    color: black;
+                    font-weight: bold;
+                }
+                .hipervinculo:hover {
+                    text-decoration: underline;
+                    color: black;
+                    font-weight: bold;
+                }
+            }
+        }
+        #botonenviar {
+            background-color: black;
+            border-color: blanchedalmond;
+        }
+    }
+    .bodyentregas {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        .entregas {
+            padding-top: 50px;
+            text-align: center;
+        }
+        .google-maps {
+            max-width: 100%;
+            iframe {
+                max-width: 100%;
+            }
+        }
+    }
+    .bodyerror {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .info {
+        display: none;
+    }
+}
+
+// FOOTER ---------------------
+.footer {
+    background-color: white;
+    border-top: 1px solid $colorborde;
+    margin-top: 25px;
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-top: 30px;
+    .footer_menu {
+        a {
+            text-decoration: none;
+        }
+        p {
+            color: black;
+            line-height: 0.3;
+        }
+    }
+    .footer_texto {
+        text-align: center;
+    }
+    .footer_rrss {
+        text-align: end;
+        img {
+            width: 35px;
+            transition: 1s;
+        }
+        img:hover {
+            width: 80px;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer_rrss img {
+        float: left;
+    }
+}

@@ -1,0 +1,361 @@
+.menusale {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.menusale a {
+  color: black;
+  text-decoration: none;
+}
+
+.menusale .desplegablesale {
+  margin-top: 0px;
+  border-top: 2px solid white;
+}
+
+.bodysale {
+  background-color: black;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.bodysale .titulo {
+  font-size: 50px;
+  color: white;
+}
+
+.bodysale h3 {
+  color: white;
+}
+
+.bodysale .bodyproductos {
+  padding-top: 50px;
+  color: white;
+}
+
+.bodysale .bodyproductos .productoimg {
+  width: 250px;
+}
+
+.bodysale .bodyproductos .productotexto {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.bodysale .bodyproductos .productotexto:hover {
+  color: #cabdbd;
+}
+
+.bodysale .bodyproductos .productobotonsale {
+  background-color: white;
+  color: black;
+  margin-bottom: 50px;
+  border: 1px solid grey;
+}
+
+.footersale {
+  background-color: black;
+  border-top: 1px solid #dddddd;
+  padding-top: 25px;
+  padding-left: 85px;
+  padding-right: 85px;
+  padding-top: 30px;
+}
+
+.footersale .footer_menusale a {
+  text-decoration: none;
+}
+
+.footersale .footer_menusale p {
+  color: white;
+  line-height: 0.3;
+}
+
+.footersale .footer_textosale {
+  text-align: center;
+  color: white;
+}
+
+.footersale .footer_rrsssale {
+  text-align: end;
+}
+
+.footersale .footer_rrsssale img {
+  width: 35px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footersale .footer_rrsssale img:hover {
+  width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_rrss img {
+    float: left;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .logoletras {
+  width: 200px;
+}
+
+.menu {
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu .desplegable {
+  background-color: black;
+}
+
+.body {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.body .titulo {
+  font-size: 50px;
+}
+
+.body .portada img {
+  width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.body .portada img:hover {
+  opacity: 70%;
+}
+
+.body .info {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 80px;
+  margin-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+}
+
+.body .info p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+.body .info .infosmall {
+  font-size: 15px;
+}
+
+.body .bodyproductos {
+  padding-top: 50px;
+}
+
+.body .bodyproductos .productoimg {
+  width: 250px;
+}
+
+.body .bodyproductos .productotexto {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.body .bodyproductos .productoboton {
+  border: 1px solid black;
+  margin-bottom: 50px;
+}
+
+.body .bodyproductos .productotexto:hover {
+  color: #cabdbd;
+}
+
+.body .bodyproductos .carouselimg {
+  width: 350px;
+}
+
+.body .bodyproductos .carouseltexto {
+  font-weight: bold;
+  color: black;
+}
+
+.body .bodyproductos .carouselimgestilo {
+  border-radius: 15px;
+  border: solid #cabdbd;
+}
+
+.body #carouselcentrado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.body .productobotoncarousel {
+  border: 1px solid black;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+
+.body .bodycontacto {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body .bodycontacto .contacto {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.body .bodycontacto .contacto .contactoimg {
+  width: 50px;
+}
+
+.body .bodycontacto .contacto .contactotexto {
+  padding-top: 20px;
+}
+
+.body .bodycontacto .contacto .contactotexto .hipervinculo {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.body .bodycontacto .contacto .contactotexto .hipervinculo:hover {
+  text-decoration: underline;
+  color: black;
+  font-weight: bold;
+}
+
+.body .bodycontacto #botonenviar {
+  background-color: black;
+  border-color: blanchedalmond;
+}
+
+.body .bodyentregas {
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.body .bodyentregas .entregas {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.body .bodyentregas .google-maps {
+  max-width: 100%;
+}
+
+.body .bodyentregas .google-maps iframe {
+  max-width: 100%;
+}
+
+.body .bodyerror {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .info {
+    display: none;
+  }
+}
+
+.footer {
+  background-color: white;
+  border-top: 1px solid #dddddd;
+  margin-top: 25px;
+  margin-left: 85px;
+  margin-right: 85px;
+  padding-top: 30px;
+}
+
+.footer .footer_menu a {
+  text-decoration: none;
+}
+
+.footer .footer_menu p {
+  color: black;
+  line-height: 0.3;
+}
+
+.footer .footer_texto {
+  text-align: center;
+}
+
+.footer .footer_rrss {
+  text-align: end;
+}
+
+.footer .footer_rrss img {
+  width: 35px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .footer_rrss img:hover {
+  width: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer_rrss img {
+    float: left;
+  }
+}
+/*# sourceMappingURL=style.css.map */

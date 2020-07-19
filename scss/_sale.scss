@@ -1,0 +1,88 @@
+$colorpastel: rgb(202, 189, 189);
+$colorborde: rgb(221, 221, 221);
+
+.menusale {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    a {
+        color: black; 
+        text-decoration: none;
+    }
+    .desplegablesale {
+        margin-top: 0px; 
+        border-top: 2px solid white;
+    }
+}
+
+.bodysale {
+    background-color: black;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    .titulo {
+        font-size: 50px;
+        color: white;
+    }
+    h3 {
+        color: white;
+    }
+    .bodyproductos {
+        padding-top: 50px;
+        color: white;
+        .productoimg {
+            width: 250px;
+        }
+        .productotexto {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .productotexto:hover {
+            color: $colorpastel;
+        }
+        .productobotonsale {
+            background-color: white;
+            color: black;
+            margin-bottom: 50px;
+            border: 1px solid grey;
+        }
+    }
+}
+.footersale {
+    background-color: black;
+    border-top: 1px solid $colorborde;
+    padding-top: 25px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 30px;
+    .footer_menusale {
+        a {
+            text-decoration: none;
+        }
+        p {
+            color: white;
+            line-height: 0.3;
+        }
+    }
+    .footer_textosale {
+        text-align: center;
+        color: white;
+    }
+    .footer_rrsssale {
+        text-align: end;
+        img {
+            width: 35px;
+            transition: 1s;
+        }
+        img:hover {
+            width: 80px;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .footer_rrss img {
+        float: left;
+    }
+}
